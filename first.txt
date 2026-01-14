@@ -1,1 +1,2 @@
-first commit
+APPRENTISSAGE NON supervisé pour clusterer les tendance baissiere et haussiere du cours
+et supervisé pour predir le prix 
