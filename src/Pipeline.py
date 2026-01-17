@@ -12,10 +12,10 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.cluster import KMeans
 
 # Chemins absolus
-RAW_DATA_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/Data/marketing_campaign.csv"
-PROCESSED_DATA_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/Data/processed/marketing_campaign_processed.csv"
-MODEL_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/models/ecommerce_model.pkl"
-KMEANS_MODEL_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/models/kmeans_model.pkl"
+RAW_DATA_PATH = "./data/marketing_campaign.csv"
+PROCESSED_DATA_PATH = "./data/processed/marketing_campaign_processed.csv"
+MODEL_PATH = "./src/models/ecommerce_model.pkl"
+KMEANS_MODEL_PATH = "./src/models/kmeans_model.pkl"
 
 USELESS_COLUMNS = ["ID", "Dt_Customer", "Year_Birth"]
 CAT_FEATURES = ["Education", "Marital_Status"]
