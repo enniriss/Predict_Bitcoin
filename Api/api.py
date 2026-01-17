@@ -4,8 +4,8 @@ import pickle
 import pandas as pd
 
 # Chemins absolus vers les modèles
-MODEL_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/models/ecommerce_model.pkl"
-KMEANS_MODEL_PATH = "c:/Users/Utilisateur/Documents/Cour/Data Science/GROUPE-EXAM-FINAL/Predict_Bitcoin/src/models/kmeans_model.pkl"
+MODEL_PATH = "./src/models/ecommerce_model.pkl"
+KMEANS_MODEL_PATH = "./src/models/kmeans_model.pkl"
 
 # Chargement des modèles au démarrage
 with open(MODEL_PATH, "rb") as f:
